@@ -16,13 +16,93 @@ body {
     justify-content: center;
     align-items: center;
     background-size: cover;
+    position: relative;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px 60px;
+}
+
+.navbar-logo img {
+    width: 100px;
+    height: auto;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #a682e2;
+}
+
+.navbar-links a :hover {
+    background-color: #483863;
+}
+
+.content {
+    margin-top: 70px;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.hero-section h1{
+    font-size: 43px;
+    font-weight: bold;
+    color: #333;
+}
+
+.hero-section p {
+    font-size: 20px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.get-started {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #483863;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.get-started:hover {
+    background-color: #a289cc;
+}
+
+.footer {
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 input:hover {
     background-color: #e4e9fd;
 }
 
-.logo {
+.lnogo {
     position: absolute;
     width: 6%;
     left: 4%;
